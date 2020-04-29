@@ -1,5 +1,5 @@
 PODS:
-  - op-wakun (0.1.0)
+  - op-wakun (1.0.0)
 
 DEPENDENCIES:
   - op-wakun (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  op-wakun: b4cc4040831caf0c2bd3284c76be2516db532327
+  op-wakun: e28cf14e4c813879497f87c57a2ee709bbeea089
 
 PODFILE CHECKSUM: ff3254928cf8aa4ed52541e177c7f79363abee9b
 

@@ -1,9 +1,9 @@
 {
   "name": "op-wakun",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "Libreria de pinche openpay es la mamada mijo.",
   "description": "Libreria de pinche openpay es la mamada mijo, sigue asi mijo :v",
-  "homepage": "https://github.com/TaniaOlivie/openpay-rno",
+  "homepage": "https://github.com/TaniaOlivie/pod-openpay",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "TaniaOlivie": "appmyco@gmail.com"
   },
   "source": {
-    "git": "https://github.com/TaniaOlivie/openpay-rno.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/TaniaOlivie/pod-openpay.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

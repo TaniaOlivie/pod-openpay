@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'op-wakun'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Libreria de pinche openpay es la mamada mijo.'
 
 # This description is used to generate tags and improve search results.
