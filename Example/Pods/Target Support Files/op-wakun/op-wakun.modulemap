@@ -1,0 +1,6 @@
+framework module op_wakun {
+  umbrella header "op-wakun-umbrella.h"
+
+  export *
+  module * { export * }
+}

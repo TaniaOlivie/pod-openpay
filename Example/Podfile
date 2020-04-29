@@ -1,0 +1,6 @@
+use_frameworks!
+target 'op-wakun_Tests' do
+  pod 'op-wakun', :path => '../'
+  
+  
+end

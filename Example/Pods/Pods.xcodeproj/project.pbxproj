@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C54E5E2373EF3B27DB50AA52C4471E /* Openpay.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FA9EB6136D55B9E2A35C7EBF9C36B0 /* Openpay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D9E4309798E9E2581BF5D136A20D5D /* Pods-op-wakun_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE0263C8EF902505FB8153ABFED68FF /* Pods-op-wakun_Tests-dummy.m */; };
+		74422D9C3FEB899BFE2299CA2CD2F8A0 /* OPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = A702CC67302F36BE1EB35E783C3BC85F /* OPAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86619395C489D3C5CAF33042AC019C4E /* op-wakun-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755258768CE16B3038894727F795727 /* op-wakun-dummy.m */; };
+		8EA41FAE312C8B3569C626248E976312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA9E48881B0B3715E8A88DB380CBCDB3 /* Openpay.a in Sources */ = {isa = PBXBuildFile; fileRef = 82438E5910ECE271FCBC3D915F1F2C4B /* Openpay.a */; };
+		BFEAC8C14F000C6C5911A2A2E82BA084 /* OPToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 365109AD50070E0E874F3D0A8C5A2944 /* OPToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB170DD901840AEC30D7017F64521D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4A61031D44AF6215860D4E7BFA20E94 /* OPCard.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF7581D00186E0CA344B72670346E20 /* OPCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F004B3D8E18C88B0876F74296687144F /* Pods-op-wakun_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C279D4715B2DC1B0A48409875000F3C /* Pods-op-wakun_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F303BD756845D88F52E15504C7786906 /* op-wakun-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A20524BE80C10A63EDB9E7A05ED9C180 /* op-wakun-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C83B0751B6757A4BB304A5DC170EF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9DF0EF24FD1A2404E85C709B112D42;
+			remoteInfo = "op-wakun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB281D1160390CBCEAB123B5907889C /* Pods-op-wakun_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-op-wakun_Tests.modulemap"; sourceTree = "<group>"; };
+		0EB6F5BEFFFDBAD03361C39C587F3E42 /* Pods-op-wakun_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-op-wakun_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1755258768CE16B3038894727F795727 /* op-wakun-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "op-wakun-dummy.m"; sourceTree = "<group>"; };
+		1F91A328FF2DF6C4AC01877A5B226E34 /* op-wakun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "op-wakun.release.xcconfig"; sourceTree = "<group>"; };
+		3168BC856E87738BE983FD2D68B9F71D /* Pods-op-wakun_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-op-wakun_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32FA9EB6136D55B9E2A35C7EBF9C36B0 /* Openpay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Openpay.h; sourceTree = "<group>"; };
+		365109AD50070E0E874F3D0A8C5A2944 /* OPToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPToken.h; sourceTree = "<group>"; };
+		3FFFDA39FCCB10C62B510769968B8F54 /* Pods-op-wakun_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-op-wakun_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FE7F2B34F6EDBDC691BD5E06BA12960 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5C279D4715B2DC1B0A48409875000F3C /* Pods-op-wakun_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-op-wakun_Tests-umbrella.h"; sourceTree = "<group>"; };
+		61E75C6F8B9C05542C8E68AA8125380A /* Pods-op-wakun_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-op-wakun_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE57A99F0A2F7F6D94EE62679EA20C4 /* Pods-op-wakun_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-op-wakun_Tests-Info.plist"; sourceTree = "<group>"; };
+		82438E5910ECE271FCBC3D915F1F2C4B /* Openpay.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = Openpay.a; path = "op-wakun/Classes/Openpay.a"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2C706CAC911B5124C22DF05B8EC475 /* Pods_op_wakun_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_op_wakun_Tests.framework; path = "Pods-op-wakun_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20524BE80C10A63EDB9E7A05ED9C180 /* op-wakun-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "op-wakun-umbrella.h"; sourceTree = "<group>"; };
+		A702CC67302F36BE1EB35E783C3BC85F /* OPAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPAddress.h; sourceTree = "<group>"; };
+		ADF842FD97C4C819CBE67491E05C09E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AFC045A9B54EC4FAB094B7BAA2AD00EC /* Pods-op-wakun_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-op-wakun_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CC57C3EDE06C908B9E83939DE51E9EFD /* op-wakun.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "op-wakun.modulemap"; sourceTree = "<group>"; };
+		CCF7581D00186E0CA344B72670346E20 /* OPCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPCard.h; sourceTree = "<group>"; };
+		D0B5C76FB7CCF535829ECE255441748C /* op-wakun-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "op-wakun-Info.plist"; sourceTree = "<group>"; };
+		D5B86AF2AE96D2E2FBE2F96FA9820220 /* op-wakun.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "op-wakun.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAECCFA9270DD5A14C6AD64440FD3C72 /* op-wakun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "op-wakun.debug.xcconfig"; sourceTree = "<group>"; };
+		E67DEB02AD82BDE1FBACD1A3DBB19EDE /* op_wakun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = op_wakun.framework; path = "op-wakun.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBD77420C427DDF974229E373B0CC4D /* op-wakun-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "op-wakun-prefix.pch"; sourceTree = "<group>"; };
+		EEE0263C8EF902505FB8153ABFED68FF /* Pods-op-wakun_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-op-wakun_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC023DDC2294DC7FF3C574F5AF1E1AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA41FAE312C8B3569C626248E976312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3A7164E26373AD73CB9A315CD09C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB170DD901840AEC30D7017F64521D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9079870F5BC6402110F91533E94247 /* Pods-op-wakun_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB281D1160390CBCEAB123B5907889C /* Pods-op-wakun_Tests.modulemap */,
+				3FFFDA39FCCB10C62B510769968B8F54 /* Pods-op-wakun_Tests-acknowledgements.markdown */,
+				3168BC856E87738BE983FD2D68B9F71D /* Pods-op-wakun_Tests-acknowledgements.plist */,
+				EEE0263C8EF902505FB8153ABFED68FF /* Pods-op-wakun_Tests-dummy.m */,
+				AFC045A9B54EC4FAB094B7BAA2AD00EC /* Pods-op-wakun_Tests-frameworks.sh */,
+				7BE57A99F0A2F7F6D94EE62679EA20C4 /* Pods-op-wakun_Tests-Info.plist */,
+				5C279D4715B2DC1B0A48409875000F3C /* Pods-op-wakun_Tests-umbrella.h */,
+				61E75C6F8B9C05542C8E68AA8125380A /* Pods-op-wakun_Tests.debug.xcconfig */,
+				0EB6F5BEFFFDBAD03361C39C587F3E42 /* Pods-op-wakun_Tests.release.xcconfig */,
+			);
+			name = "Pods-op-wakun_Tests";
+			path = "Target Support Files/Pods-op-wakun_Tests";
+			sourceTree = "<group>";
+		};
+		6E11C560BA34CA472D370C0D85E64705 /* op-wakun */ = {
+			isa = PBXGroup;
+			children = (
+				82438E5910ECE271FCBC3D915F1F2C4B /* Openpay.a */,
+				CF9748A85BD058E8DFC558F8EB64D976 /* include */,
+				BB6F296F714A55BA8A35569306B36CD1 /* Pod */,
+				AB88F52C588D7448399603C8904FDCF2 /* Support Files */,
+			);
+			name = "op-wakun";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AB88F52C588D7448399603C8904FDCF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC57C3EDE06C908B9E83939DE51E9EFD /* op-wakun.modulemap */,
+				1755258768CE16B3038894727F795727 /* op-wakun-dummy.m */,
+				D0B5C76FB7CCF535829ECE255441748C /* op-wakun-Info.plist */,
+				EDBD77420C427DDF974229E373B0CC4D /* op-wakun-prefix.pch */,
+				A20524BE80C10A63EDB9E7A05ED9C180 /* op-wakun-umbrella.h */,
+				DAECCFA9270DD5A14C6AD64440FD3C72 /* op-wakun.debug.xcconfig */,
+				1F91A328FF2DF6C4AC01877A5B226E34 /* op-wakun.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/op-wakun";
+			sourceTree = "<group>";
+		};
+		B34DC85E6FE068B329B10BBF08DB639B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E11C560BA34CA472D370C0D85E64705 /* op-wakun */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B57172AACE23534E3E4973B87D0D2A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E67DEB02AD82BDE1FBACD1A3DBB19EDE /* op_wakun.framework */,
+				9E2C706CAC911B5124C22DF05B8EC475 /* Pods_op_wakun_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6F296F714A55BA8A35569306B36CD1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ADF842FD97C4C819CBE67491E05C09E9 /* LICENSE */,
+				D5B86AF2AE96D2E2FBE2F96FA9820220 /* op-wakun.podspec */,
+				4FE7F2B34F6EDBDC691BD5E06BA12960 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6F0483FC1B2D393518606B52F5812E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9079870F5BC6402110F91533E94247 /* Pods-op-wakun_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B34DC85E6FE068B329B10BBF08DB639B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B57172AACE23534E3E4973B87D0D2A70 /* Products */,
+				C6F0483FC1B2D393518606B52F5812E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9748A85BD058E8DFC558F8EB64D976 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A702CC67302F36BE1EB35E783C3BC85F /* OPAddress.h */,
+				CCF7581D00186E0CA344B72670346E20 /* OPCard.h */,
+				32FA9EB6136D55B9E2A35C7EBF9C36B0 /* Openpay.h */,
+				365109AD50070E0E874F3D0A8C5A2944 /* OPToken.h */,
+			);
+			name = include;
+			path = "op-wakun/Classes/include";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14DB4957C8102723CEF1E4F5131EE648 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F004B3D8E18C88B0876F74296687144F /* Pods-op-wakun_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E994A657FBF484BB1C95ABD8ED72A858 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F303BD756845D88F52E15504C7786906 /* op-wakun-umbrella.h in Headers */,
+				74422D9C3FEB899BFE2299CA2CD2F8A0 /* OPAddress.h in Headers */,
+				E4A61031D44AF6215860D4E7BFA20E94 /* OPCard.h in Headers */,
+				33C54E5E2373EF3B27DB50AA52C4471E /* Openpay.h in Headers */,
+				BFEAC8C14F000C6C5911A2A2E82BA084 /* OPToken.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C9DF0EF24FD1A2404E85C709B112D42 /* op-wakun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242709C7FECC3EECC06F373B3D1CC018 /* Build configuration list for PBXNativeTarget "op-wakun" */;
+			buildPhases = (
+				E994A657FBF484BB1C95ABD8ED72A858 /* Headers */,
+				0EA6B61F09826B3F20B8CF8C6CB42F60 /* Sources */,
+				FAE3A7164E26373AD73CB9A315CD09C2 /* Frameworks */,
+				D3DDF49152F3FB5BD999EDEAEE2C710C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "op-wakun";
+			productName = "op-wakun";
+			productReference = E67DEB02AD82BDE1FBACD1A3DBB19EDE /* op_wakun.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBBE363B11B9FFE23D42D3C09F4C4ADB /* Pods-op-wakun_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3972A0E24BF93D174F88ACE957EEEED4 /* Build configuration list for PBXNativeTarget "Pods-op-wakun_Tests" */;
+			buildPhases = (
+				14DB4957C8102723CEF1E4F5131EE648 /* Headers */,
+				3E520FD0E894832092579ED8F62A523D /* Sources */,
+				9EC023DDC2294DC7FF3C574F5AF1E1AE /* Frameworks */,
+				B418B41F7C7E02AAA008E6F452A7826C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3438D5D9771EF783F6057452F090E7B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-op-wakun_Tests";
+			productName = "Pods-op-wakun_Tests";
+			productReference = 9E2C706CAC911B5124C22DF05B8EC475 /* Pods_op_wakun_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B57172AACE23534E3E4973B87D0D2A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C9DF0EF24FD1A2404E85C709B112D42 /* op-wakun */,
+				BBBE363B11B9FFE23D42D3C09F4C4ADB /* Pods-op-wakun_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B418B41F7C7E02AAA008E6F452A7826C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DDF49152F3FB5BD999EDEAEE2C710C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA6B61F09826B3F20B8CF8C6CB42F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86619395C489D3C5CAF33042AC019C4E /* op-wakun-dummy.m in Sources */,
+				BA9E48881B0B3715E8A88DB380CBCDB3 /* Openpay.a in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E520FD0E894832092579ED8F62A523D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D9E4309798E9E2581BF5D136A20D5D /* Pods-op-wakun_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3438D5D9771EF783F6057452F090E7B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "op-wakun";
+			target = 2C9DF0EF24FD1A2404E85C709B112D42 /* op-wakun */;
+			targetProxy = 1C83B0751B6757A4BB304A5DC170EF96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		091B0BB9F6F292CF847C4B427EA1927E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAECCFA9270DD5A14C6AD64440FD3C72 /* op-wakun.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/op-wakun/op-wakun-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/op-wakun/op-wakun-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/op-wakun/op-wakun.modulemap";
+				PRODUCT_MODULE_NAME = op_wakun;
+				PRODUCT_NAME = op_wakun;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AAF34F94AC7C2437C22CAC02868C484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F91A328FF2DF6C4AC01877A5B226E34 /* op-wakun.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/op-wakun/op-wakun-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/op-wakun/op-wakun-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/op-wakun/op-wakun.modulemap";
+				PRODUCT_MODULE_NAME = op_wakun;
+				PRODUCT_NAME = op_wakun;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73372CF78EDEEE3F262CBF1BB9B031EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB6F5BEFFFDBAD03361C39C587F3E42 /* Pods-op-wakun_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-op-wakun_Tests/Pods-op-wakun_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-op-wakun_Tests/Pods-op-wakun_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F25DEAAF15196FAFBEED38B8D15F4D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E75C6F8B9C05542C8E68AA8125380A /* Pods-op-wakun_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-op-wakun_Tests/Pods-op-wakun_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-op-wakun_Tests/Pods-op-wakun_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242709C7FECC3EECC06F373B3D1CC018 /* Build configuration list for PBXNativeTarget "op-wakun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091B0BB9F6F292CF847C4B427EA1927E /* Debug */,
+				3AAF34F94AC7C2437C22CAC02868C484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3972A0E24BF93D174F88ACE957EEEED4 /* Build configuration list for PBXNativeTarget "Pods-op-wakun_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25DEAAF15196FAFBEED38B8D15F4D0E /* Debug */,
+				73372CF78EDEEE3F262CBF1BB9B031EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
